@@ -53,6 +53,7 @@ export default () => {
       {loading && <Loader />}
       {!loading &&
         data &&
+        data.seeFeed &&
         data.seeFeed.map(post => (
           <Post
             key={post.id}

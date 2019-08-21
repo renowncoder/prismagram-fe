@@ -463,3 +463,5 @@
     - window.location
   - Routes.js
     - 나머지 경로에 대해서 redirect (마지막에 위치 시켜야 함)
+
+### # 19.0 Deploying Frontend to Netlify
